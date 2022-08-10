@@ -8,7 +8,7 @@ int main()
     printf("\n Enter Two Numbers you want to add - ");
     scanf("%f %f" ,&num1 ,&num2);
 
-    printf("")
+    printf("");
 
     sum=num1+num2;
 
