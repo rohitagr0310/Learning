@@ -1,1 +1,0 @@
-// the timed loading sequence
