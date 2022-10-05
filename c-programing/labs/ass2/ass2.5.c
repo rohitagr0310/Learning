@@ -2,6 +2,7 @@
 
 int main()
 {
+    //this code prints the value of pre defined variable
     int first=15;
     int second=16;
     int third=17;
@@ -12,6 +13,5 @@ int main()
     printf("Third variable hold a integer constant %d \n",third);
     printf("Fourth variable hold a integer constant %d \n",fourth);
 
-z
     return 0;
 }
