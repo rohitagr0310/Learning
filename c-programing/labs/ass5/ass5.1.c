@@ -10,7 +10,7 @@ int main()
     
     gross = ((da/100)*basic) + ((hr/100)*basic) + basic;
 
-    printf("The Gross Salary of Aman is - %f", gross);
+    printf("The Gross Salary of Aman is - %0.2f\n\n", gross);
     
     return 0;
 }
