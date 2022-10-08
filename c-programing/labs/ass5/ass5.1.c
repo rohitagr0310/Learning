@@ -5,7 +5,7 @@ int main()
     float basic,da=50,hr=20,gross;
 
     printf("Enter Aman's basic salary - ");
-    scanf("%f",&basic);
+    scanf("%0.2f",&basic);
     printf("\n\n");
     
     gross = ((da/100)*basic) + ((hr/100)*basic) + basic;

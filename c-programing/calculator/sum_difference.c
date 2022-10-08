@@ -16,7 +16,7 @@ int main()
     
     scanf("%d %d", &n, &m);
     scanf("\n");
-    scanf("%f %f", &x, &y);
+    scanf("%0.2f %0.2f", &x, &y);
     
     sum1=n+m;
     sum2=x+y;
@@ -24,7 +24,7 @@ int main()
     dif2=x-y;
     
     printf("%d %d\n", sum1, dif1);
-    printf("%0.1f %f\n", sum2, dif2);
+    printf("%0.1f %0.2f\n", sum2, dif2);
     
     return 0;
 }

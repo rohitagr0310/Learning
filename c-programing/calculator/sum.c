@@ -6,7 +6,7 @@ int main()
     float num2;
     float sum;
     printf("\n Enter Two Numbers you want to add - ");
-    scanf("%f %f" ,&num1 ,&num2);
+    scanf("%0.2f %0.2f" ,&num1 ,&num2);
 
     printf("");
 
