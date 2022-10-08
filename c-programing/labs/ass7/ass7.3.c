@@ -9,11 +9,11 @@ int main()
 
     if (a>50 && a<100)
     {
-        printf("SUCCESS");
+        printf("SUCCESS\n");
     }
     else
     {
-        printf("FAIL");
+        printf("FAIL\n");
     }
     
     return 0;

@@ -17,11 +17,11 @@ int main()
     
     if (a+b>c && a+c>b && b+c>a)
     {
-        printf("The Triangle is Valid");
+        printf("The Triangle is Valid\n");
     }
     else
     {
-        printf("The Triangle is not valid");
+        printf("The Triangle is not valid\n");
     }
     
     return 0;

@@ -10,11 +10,11 @@ int main ()
 
     if (a>0 )
     {
-        printf("The imput is Positive");
+        printf("The imput is Positive\n");
     }
     else
     {
-        printf("The imput is Negative");
+        printf("The imput is Negative\n");
     }
     
     return 0;

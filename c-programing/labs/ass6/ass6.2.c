@@ -28,8 +28,8 @@ int main()
     p=t/500;
     a=t/5;
 
-    printf("Average Marks of the student are %d",a);
-    printf("Percentage of the student are %d",p);
+    printf("Average Marks of the student are %d\n",a);
+    printf("Percentage of the student are %d\n",p);
     
     // percentage = total marks / 500
     

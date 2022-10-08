@@ -10,11 +10,11 @@ int main ()
 
     if (a % 5 == 0)
     {
-        printf("The imput is divisible by 5");
+        printf("The imput is divisible by 5\n");
     }
     else
     {
-        printf("The imput is not divisible by 5");
+        printf("The imput is not divisible by 5\n");
     }
     
     return 0;

@@ -10,11 +10,11 @@ int main ()
 
     if (a % 2 == 0)
     {
-        printf("The imput is even");
+        printf("The imput is even\n");
     }
     else
     {
-        printf("The imput is odd");
+        printf("The imput is odd\n");
     }
     
     return 0;

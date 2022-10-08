@@ -10,11 +10,11 @@ int main ()
 
     if (a>10 )
     {
-        printf("The imput is larger than 10");
+        printf("The imput is larger than 10\n");
     }
     else
     {
-        printf("The imput is smaller than 10");
+        printf("The imput is smaller than 10\n");
     }
     
     return 0;

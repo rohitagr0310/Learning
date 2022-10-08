@@ -25,9 +25,9 @@ int main()
     printf("\n");
 
     t=m1+m2+m3+m4+m5;
-    p=t/500;
+    p=(t/500)*100;
 
-    printf("Percentage of the student are %d",p);
+    printf("Percentage of the student are %d\n",p);
     
     // percentage = total marks / 500
     
