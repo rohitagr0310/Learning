@@ -5,7 +5,7 @@ int main ()
     int a;
 
     printf("Enter your number to check if imput is odd or even - ");
-    scanf("%d",a);
+    scanf("%d",&a);
     printf("\n\n");
 
     if (a % 2 == 0)

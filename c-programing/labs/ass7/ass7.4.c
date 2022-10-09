@@ -5,7 +5,7 @@ int main ()
     int a;
 
     printf("Enter your number to check if imput is greater than 10 or not - ");
-    scanf("%d",a);
+    scanf("%d",&a);
     printf("\n\n");
 
     if (a>10 )
