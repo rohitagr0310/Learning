@@ -18,15 +18,15 @@ int main()
 
     if (d>0)
     {
-        printf("Quadratic equation is Real and Unequal");
+        printf("Quadratic equation is Real and Unequal\n");
     }
     else if (d=0)
     {
-        printf("Quadratic equation is Real and Equal");
+        printf("Quadratic equation is Real and Equal\n");
     }
     else if (d<0)
     {
-        printf("Quadratic equation is Imaginary and Unequal");
+        printf("Quadratic equation is Imaginary and Unequal\n");
     }
     
     return 0;

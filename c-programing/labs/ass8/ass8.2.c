@@ -9,7 +9,7 @@ int main()
 
     if (a > 33 && b > 33 && c > 33 && d > 33 && e > 33)
     {
-        printf("STudent Passed the Examination");
+        printf("Student Passed the Examination");
     }
     else
     {

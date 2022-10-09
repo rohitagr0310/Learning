@@ -27,7 +27,7 @@ int main()
     t=m1+m2+m3+m4+m5;
     a=t/5;
 
-    printf("Aggregate Marks of the student are %d",a);
+    printf("Aggregate Marks of the student are %d\n",a);
     
     // aggregate marks = total marks / total number of subjects
     

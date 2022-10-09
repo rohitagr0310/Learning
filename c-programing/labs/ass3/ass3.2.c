@@ -12,9 +12,8 @@ int main()
     printf("Enter the value of the Second variable -");
     scanf("%d",&b);
 
-    printf("Value of the First Variable is %d",a);
-    printf("Value of the Second Variable is %d",b);
-
+    printf("Value of the First Variable is %d\n",a);
+    printf("Value of the Second Variable is %d\n",b);
 
     return 0;
 }

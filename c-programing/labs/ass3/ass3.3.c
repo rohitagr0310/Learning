@@ -16,7 +16,7 @@ int main()
     printf("Enter the value of the Third variable -");
     scanf("%d",&c);
 
-    printf("Value of the First Variable is %d and second variable is %d and value of third variable is %d",a,b.c);
+    printf("Value of the First Variable is %d and second variable is %d and value of third variable is %d\n",a,b,c);
     
     return 0;
 }
