@@ -15,7 +15,7 @@ int main()
 
         printf("charge is - %0.2f\n\n", total);
     }
-    else if (e < 150)
+    else if (e > 50 && e < 150)
     {
         charge = (e * 0.75);
         sub_charge = charge * 0.2;
@@ -23,7 +23,7 @@ int main()
 
         printf("charge is - %0.2f\n\n", total);
     }
-    else if (e < 250)
+    else if (e > 150 && e < 250)
     {
         charge = e * 1.20;
         sub_charge = charge * 0.2;

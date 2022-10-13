@@ -62,9 +62,9 @@ void divi()
 int main()
 {
     int a,b,i;
-    printf("To use any operator, imput the code for it \n\n1)addition \n2)subtraction \n3)multiplication \n4)division");
+    printf("To use any operator, imput the code for it \n\n1)addition \n2)subtraction \n3)multiplication \n4)division\n\n");
     
-    printf("which operator you want to use - \n");
+    printf("which operator you want to use - ");
     scanf("%d",&i);
     
     if (i==1)
@@ -85,7 +85,7 @@ int main()
     }
     else
     {
-        printf("Wrong imput");
+        printf("Wrong imput\n\n");
     }
     
     return 0;
