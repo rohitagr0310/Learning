@@ -2,7 +2,7 @@
 
 int main()
 {
-    int n,i=0;
+    int n,i=1;
 
     printf("Write the number of pairs you wish to calculate");
     scanf("%d",&n);
