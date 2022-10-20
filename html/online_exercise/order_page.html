@@ -6,7 +6,7 @@
     Rohit's Greatest book for HTML and CSS
 </h2>
 
-<h2>
+<h2 class="text">
     $999.99 - Only one copy in the World
 </h2>
 
@@ -17,34 +17,60 @@
 <style>
     .back-button
     {
-        background-color: white;
-        color: black;
-        border-color: black;
-        border-radius: 10px;
-        height: 36px;
-        width: 70px;
+        background-color: red;
+        color: white;
+        width: 100px;
         cursor: pointer;
-        border-width: 1px;
-        margin-right: 20px;
-        border-width: 2px;
-        font-weight: bold;
-
-    }    
+        font-weight: 15px;
+        border-width: 4px;
+        font-size: medium;
+        height: 36px;
+        border-style: none;
+        margin-left: 50px;
+    }
 
     .buy-button
     {
-        background-color: white;
-        color: #0000ff;
-        border-color: rgb(97, 97, 248);
-        border-style: solid;
-        border-radius: 10px;
-        height: 36px;
+        background-color: blue;
+        color: white;
         width: 130px;
         cursor: pointer;
-        font-weight: 1000;
+        font-weight: 25px;
         border-width: 4px;
         font-size: medium;
+        height: 36px;
+        border-style: none;
+        margin-left: 25px;
     }
+
+    .text
+    {
+        font-weight: bolder;
+        font-size: 35px;
+        color: rgb(0, 118, 0);
+    }
+    
+    .back-button:hover
+    {
+        opacity: 0.8;
+    }
+
+    .back-button:active
+    {
+        opacity: 0.5;
+    }
+
+    
+    .buy-button:hover
+    {
+        opacity: 0.8;
+    }
+
+    .buy-button:active
+    {
+        opacity: 0.5;
+    }
+
 </style>
 
 <button class="back-button">
