@@ -8,7 +8,7 @@ int main()
 
     switch (m)
     {
-    case 1 || 3 || 5 || 7 || 8 || 10 || 12:
+    case 1:
     {
         printf("Number of days are 31");
         break;
@@ -18,9 +18,54 @@ int main()
         printf("Number of days are 28");
         break;
     }
-    case 4 || 6 || 9 || 11:
+    case 3:
+    {
+        printf("Number of days are 31");
+        break;
+    }
+    case 4:
     {
         printf("Number of days are 30");
+        break;
+    }
+    case 5:
+    {
+        printf("Number of days are 31");
+        break;
+    }
+    case 6:
+    {
+        printf("Number of days are 30");
+        break;
+    }
+    case 7:
+    {
+        printf("Number of days are 31");
+        break;
+    }
+    case 8:
+    {
+        printf("Number of days are 31");
+        break;
+    }
+    case 9:
+    {
+        printf("Number of days are 30");
+        break;
+    }
+    case 10:
+    {
+        printf("Number of days are 31");
+        break;
+    }
+    case 11:
+    {
+        printf("Number of days are 30");
+        break;
+    }
+    case 12:
+    {
+        printf("Number of days are 31");
         break;
     }
     default:
