@@ -10,7 +10,7 @@ int main()
 
     for (int i = 1; i <= n; i++)
     {
-        printf("Pair no. - %d",i)
+        printf("Pair no. - %d",i);
 
         printf("Enter first number - ");
         scanf("%d",&a);
