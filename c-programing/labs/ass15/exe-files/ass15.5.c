@@ -1,11 +1,14 @@
 #include <stdio.h>
-void natural(int n);
+void odd(int n);
 
-void natural(int n)
+void odd(int n)
 {
     for (int i = 1; i <= n; i++)
     {
-        printf("%d ",i);
+        if (i %2==1)
+        {
+            printf("%d\n",i);
+        }
     }
 }
 
@@ -14,9 +17,9 @@ int main()
     int n;
 
     printf("Enter the number you wish to print till - ");
-    scanf("%f",&n);
+    scanf("%d",&n);
 
-    natural(n);
+    odd(n);
 
     return 0;
 }

@@ -29,14 +29,16 @@ int prime_checker(int n)
 int main()
 {
     int n,ans;
-    printf("enter a number - ");
+    printf("Enter a number to know its next prime - ");
     scanf("%d",&n);
 
-    for (int i = 2; i <= n; i++)
+    for (int i = n; i > 0; i++)
     {
         if (prime_checker(i)==1)
         {
-            printf("%d ",i);
+            printf("The next prime number is %d \n\n",i);
+            
+            break;
         }
     }
     
