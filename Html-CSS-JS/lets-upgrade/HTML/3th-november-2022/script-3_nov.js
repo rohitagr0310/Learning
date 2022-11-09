@@ -1,7 +1,7 @@
+const answer = prompt("Tell me how are you doing");
 
-let a=10
-let b=20
-
-console.log('Hello World')
-
-console.log(a+b)
+if (answer == "good") {
+  console.log("thats nice");
+} else {
+  console.log("ok");
+}

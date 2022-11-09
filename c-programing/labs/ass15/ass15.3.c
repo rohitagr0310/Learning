@@ -5,7 +5,7 @@ int even_odd(int i)
 {
     int n;
 
-    if (i %2==0)
+    if (i % 2 == 0)
     {
         return 1;
     }
@@ -17,14 +17,14 @@ int even_odd(int i)
 
 int main()
 {
-    int i,n;
+    int i, n;
 
     printf("Enter the Number  - ");
-    scanf("%d",&i);
+    scanf("%d", &i);
 
-    n=even_odd(i);
+    n = even_odd(i);
 
-    printf("The output is - %d\n\n",n);
+    printf("The output is - %d\n\n", n);
 
     return 0;
 }
