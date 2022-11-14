@@ -3,11 +3,11 @@ int digit(int n);
 
 int digit(int n)
 {
-    int digit_number=0;
+    int digit_number = 0;
 
     for (int i = 0; i <= n; i++)
     {
-        n=n/10;
+        n = n / 10;
         digit_number++;
     }
 
@@ -15,14 +15,14 @@ int digit(int n)
 }
 int main()
 {
-    int n,ans;
+    int n, ans;
 
-    printf("Enter a number to know the sum till - ");
-    scanf("%d",&n);
+    printf("Enter a number to know how many digit are in it - ");
+    scanf("%d", &n);
 
-    ans=sum(n);
+    ans = digit(n);
 
-    printf("the sum is %d",ans);
-    
+    printf("the number of digit in the number is %d", ans);
+
     return 0;
 }

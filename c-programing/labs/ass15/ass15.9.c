@@ -11,6 +11,7 @@ int digit_checker(int n, int d)
         if (remin == d)
         {
             return 1;
+            break;
         }
 
         n = n / 10;
@@ -32,7 +33,7 @@ int main()
 
     ans = digit_checker(n, d);
 
-    if (ans==1)
+    if (ans == 1)
     {
         printf("DIGIT IS PRESENT IN THE NUMBER.\n\n");
     }
@@ -40,6 +41,6 @@ int main()
     {
         printf("DIGIT IS NOT PRESENT IN THE NUMBER.\n\n");
     }
-    
+
     return 0;
 }
