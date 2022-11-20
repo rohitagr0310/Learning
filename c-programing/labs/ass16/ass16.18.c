@@ -3,7 +3,7 @@ int armstrong(int n);
 
 int armstrong(int n)
 {
-    int r, sum;
+    int r, sum = 0;
 
     while (n > 0)
     {
