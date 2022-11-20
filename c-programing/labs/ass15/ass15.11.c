@@ -3,7 +3,7 @@ int lcm(int a , int b);
 
 int lcm(int a , int b)
 {
-    int lcm=1;
+    int lcm=a>b?a:b;
     int l=1;
 
     while (l=1)
