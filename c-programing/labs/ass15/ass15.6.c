@@ -3,28 +3,30 @@ int fact(int a);
 
 int fact(int a)
 {
-    int fact;
-    
-	if(a == 0)
+    long int fact = 1;
+
+    if (a == 0)
     {
-	return 1;
+        return 1;
     }
 
     for (int i = 1; i <= a; i++)
     {
-        fact = fact * i;
+        fact = (fact * i);
     }
 
     return fact;
 }
 int main()
 {
-    int a, ans;
+    long int a, ans;
 
     printf("Enter the number you wish to know factorial of - ");
-    scanf("%d", &a);
+    scanf("%ld", &a);
 
     ans = fact(a);
+
+    printf("%ld", ans);
 
     return 0;
 }

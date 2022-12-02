@@ -2,14 +2,9 @@
 
 int main()
 {
-    int n;
+    int a[10];
 
-    printf("Enter your array size - ");
-    scanf("%d", &n);
-
-    int a[n];
-
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < 10; i++)
     {
         printf("Enter number for position %d - ", i);
         scanf("%d", &a[i]);
@@ -17,9 +12,9 @@ int main()
 
     int move = 0;
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < 10; i++)
     {
-        for (int j = i + 1; j < n 1; j++)
+        for (int j = i + 1; j < 10; j++)
         {
             if (a[i] < a[j])
             {
@@ -30,11 +25,12 @@ int main()
         }
     }
 
+    printf("The sorted array is \n");
+
     for (int i = 0; i < 10; i++)
     {
         printf("%d ", a[i]);
     }
-    printf("\n\n");
 
     return 0;
 }
