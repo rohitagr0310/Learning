@@ -11,7 +11,7 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        printf("Enter number for position %d - ", i);
+        printf("Enter number for position %d - ", i + 1);
         scanf("%d", &a[i]);
     }
 
@@ -19,9 +19,9 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        for (int j = i + 1; j < n 1; j++)
+        for (int j = i + 1; j < n; j++)
         {
-            if (a[i] < a[j])
+            if (a[i] > a[j])
             {
                 move = a[i];
                 a[i] = a[j];
@@ -30,7 +30,7 @@ int main()
         }
     }
 
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < n; i++)
     {
         printf("%d ", a[i]);
     }
