@@ -6,18 +6,18 @@ int main()
     int a[n];
 
     printf("How many times do you want to input - ");
-    scanf("%d",&n);
+    scanf("%d", &n);
 
     for (int i = 0; i < n; i++)
     {
         printf("Enter the age - ");
-        scanf("%d",&a[i]);
+        scanf("%d", &a[i]);
     }
-    
-    for ( int i = 0; i < n; i++)
+
+    for (int i = 0; i < n; i++)
     {
-    printf("%d ,",a[i]);
+        printf("%d", a[i]);
     }
-    
+
     return 0;
 }
