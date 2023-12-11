@@ -1,4 +1,4 @@
-package java.generic_classes;
+package generic_classes;
 
 public class genericClassArray {
 
