@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Helloworld",
+      "request": "launch",
+      "mainClass": "Helloworld",
+      "projectName": "Learning-programming-lang_a8c5013a"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "College_Training.Main",
+      "projectName": "Learning-programming-lang_a8c5013a"
+    },
+    {
+      "type": "java",
       "name": "a3dArray",
       "request": "launch",
       "mainClass": "a3dArray",
