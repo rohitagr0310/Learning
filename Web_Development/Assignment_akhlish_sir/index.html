@@ -4,24 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Number Adder</title>
+    <style>
+      table {
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+      }
+    </style>
   </head>
   <body>
-    <form>
-      <label>Enter Number 1:</label><br />
-      <input type="number" name="number1" id="number1" required /><br />
-      <label>Enter Number 2:</label><br />
-      <input type="number" name="number2" id="number2" required /><br />
-
-      <button type="button" id="submit">Addition</button>
-      <button type="reset">Reset</button>
-      <div id="result"></div>
-    </form>
+    <table>
+      <tr>
+        <th colspan="2">Number Adder</th>
+      </tr>
+      <tr>
+        <td>
+          <label for="number1">Enter Number 1:</label>
+        </td>
+        <td>
+          <input type="number" name="number1" id="number1" required />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="number2">Enter Number 2:</label>
+        </td>
+        <td>
+          <input type="number" name="number2" id="number2" required />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div id="result"></div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <button id="submit">Addition</button>
+          <button type="reset" id="reset">Reset</button>
+        </td>
+      </tr>
+    </table>
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         document
           .getElementById("submit")
           .addEventListener("click", displayResult);
+
+        document.getElementById("reset").addEventListener("click", function () {
+          document.getElementById("result").innerHTML = "";
+        });
 
         function displayResult() {
           var number1 = parseFloat(document.getElementById("number1").value);
