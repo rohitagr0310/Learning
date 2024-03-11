@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Number Adder</title>
+    <title>Number Calculator</title>
     <style>
       table {
         width: 100%;
-        max-width: 400px;
-        margin: auto;
+        max-width: 400px; /* Set a max width for better responsiveness */
+        margin: auto; /* Center the table */
       }
       table,
       th,
@@ -26,7 +26,7 @@
   <body>
     <table>
       <tr>
-        <th colspan="2">Number Adder</th>
+        <th colspan="2">Number Calculator</th>
       </tr>
       <tr>
         <td>
@@ -46,34 +46,69 @@
       </tr>
       <tr>
         <td colspan="2">
-          <div id="result"></div>
+          <button id="add">Addition</button>
+          <button id="subtract">Subtraction</button>
+          <button id="multiply">Multiplication</button>
+          <button id="divide">Division</button>
+          <button type="reset" id="reset">Reset</button>
         </td>
       </tr>
       <tr>
         <td colspan="2">
-          <button id="submit">Addition</button>
-          <button type="reset" id="reset">Reset</button>
+          <div id="result"></div>
         </td>
       </tr>
     </table>
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("add").addEventListener("click", function () {
+          performCalculation("add");
+        });
         document
-          .getElementById("submit")
-          .addEventListener("click", displayResult);
+          .getElementById("subtract")
+          .addEventListener("click", function () {
+            performCalculation("subtract");
+          });
+        document
+          .getElementById("multiply")
+          .addEventListener("click", function () {
+            performCalculation("multiply");
+          });
+        document
+          .getElementById("divide")
+          .addEventListener("click", function () {
+            performCalculation("divide");
+          });
 
         document.getElementById("reset").addEventListener("click", function () {
           document.getElementById("result").innerHTML = "";
         });
 
-        function displayResult() {
+        function performCalculation(operation) {
           var number1 = parseFloat(document.getElementById("number1").value);
           var number2 = parseFloat(document.getElementById("number2").value);
+          var result;
 
-          var result = number1 + number2;
+          switch (operation) {
+            case "add":
+              result = number1 + number2;
+              break;
+            case "subtract":
+              result = number1 - number2;
+              break;
+            case "multiply":
+              result = number1 * number2;
+              break;
+            case "divide":
+              result = number1 / number2;
+              break;
+            default:
+              result = "Invalid operation";
+          }
 
-          document.getElementById("result").innerHTML = "The sum is: " + result;
+          document.getElementById("result").innerHTML =
+            "The result is: " + result;
         }
       });
     </script>
