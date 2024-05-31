@@ -8,14 +8,14 @@ int main()
     int intOne;
     //^^ Variable Defined (working)
 
-    int 0a;
-    int 009;
-    int year@22;
-    int else;
-    int int;
-    int float;
-    int double;
-    int char;
+    // int 0a;
+    // int 009;
+    // int year@22;
+    // int else;
+    // int int;
+    // int float;
+    // int double;
+    // int char;
     //^^ Variable Not Defined (not working)
 
     return 0;
