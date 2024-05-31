@@ -1,14 +1,16 @@
-# Learning
-This Directory holds all my learning adventures through out the coding world
-with many languages and frameworks, i will create a project ripisority someday and starts my projects there
+# Learning Repository
 
-Author - Rohit Agrawal 
+Welcome to my Learning Repository! This directory holds all my learning adventures throughout the coding world. From mastering various languages and frameworks to embarking on exciting projects, this repository captures my journey of continuous learning and growth.
 
-Created - 16/8/22 - My College days 
+## About Me
 
-Languages - C , html-css 
+- **Author**: Rohit Agrawal
+- **Created**: 16/8/22 during my College days
+- **Languages**: Primarily focused on C and HTML/CSS
+- **Future Plans**: I plan to create a project repository someday and start showcasing my projects there.
+- **Forever Learner**: Learning is a journey that never ends, and this repository will stay alive to document my ongoing learning experiences.
 
-WILL STAY FOREVER
+## Directory Structure
 
-labs is the important folder
-many Certification to come
+- **labs**: This folder holds important learning materials and exercises. It's where I hone my skills and prepare for future certifications.
+- **Projects**: While I plan to create a separate project repository in the future, this directory may contain early project explorations and experiments.
