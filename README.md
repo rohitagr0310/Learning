@@ -6,8 +6,7 @@ Welcome to my Learning Repository! This directory holds all my learning adventur
 
 - **Author**: Rohit Agrawal
 - **Created**: 16/8/22 during my College days
-- **Languages**: Primarily focused on C and HTML/CSS
-- **Future Plans**: I plan to create a project repository someday and start showcasing my projects there.
+- **Languages**: Primarily focused on C
 - **Forever Learner**: Learning is a journey that never ends, and this repository will stay alive to document my ongoing learning experiences.
 
 ## Directory Structure
